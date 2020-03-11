@@ -26,6 +26,7 @@ class Sider extends React.Component {
       >
         <Menu.Item key="1">
           <a>
+            {/* 加上这个标签会出现此问题，取消则恢复正常*/}
             <MailOutlined />
             Option 1
           </a>
